@@ -1,10 +1,6 @@
 #include <iostream>
+#include "functions.h"
 
-using namespace std;
-
-int main () {
-
-	cout << "Hello World!";
-	return 0;
-
+void printHelloWorld() {
+    std::cout << "Hello, World!" << std::endl;
 }
