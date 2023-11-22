@@ -1,6 +1,7 @@
 #include "functions.h"
 
-int main() {
-    printHelloWorld();
-    return 0;
+int main() { 
+	printHelloWorld("English");
+	printHelloWorld("Finnish");
+	return 0;
 }
